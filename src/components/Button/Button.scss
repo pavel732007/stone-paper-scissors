@@ -1,0 +1,14 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.3em;
+  padding: 8px 12px;
+  color: var(--color-black);
+  font-weight: 700;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-m);
+
+  @include hover {
+    color: var(--color-accent);
+  }
+}
