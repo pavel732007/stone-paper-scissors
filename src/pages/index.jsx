@@ -1,4 +1,4 @@
-import RockPaperScissors from "@/sections/RockPaperScissors";
+import RockPaperScissors from '@/sections/RockPaperScissors'
 
 export const metadata = {
   title: 'Stone-paper-scissors',

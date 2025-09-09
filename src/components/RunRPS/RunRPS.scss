@@ -1,3 +1,14 @@
-.run-rps {
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.3em;
+  padding: 8px 12px;
+  font-weight: 700;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-m);
 
+  @include hover {
+    color: var(--color-accent);
+  }
 }

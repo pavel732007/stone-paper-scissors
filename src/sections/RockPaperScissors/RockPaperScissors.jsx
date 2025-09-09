@@ -1,19 +1,16 @@
 import './RockPaperScissors.scss'
-import clsx from "clsx"
-import PlayerRPS from "@/components/PlayerRPS";
-import ResultRPS from "@/components/ResultRPS";
-import RunRPS from "@/components/RunRPS";
-import BotRPS from "@/components/BotRPS";
-import SvgRPS from "@/components/SvgRPS";
+import clsx from 'clsx'
+import PlayerRPS from '@/components/PlayerRPS'
+import ResultRPS from '@/components/ResultRPS'
+import RunRPS from '@/components/RunRPS'
+import BotRPS from '@/components/BotRPS'
+import SvgRPS from '@/components/SvgRPS'
 
 export default (props) => {
-  const {className} = props
+  const { className } = props
 
   return (
-    <div
-      className={clsx('RPS', className)}
-    >
-
+    <div className={clsx('RPS', className)} data-js-rps="">
       <SvgRPS />
       <div className="RPS__body">
         <PlayerRPS />

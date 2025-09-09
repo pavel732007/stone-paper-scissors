@@ -1,17 +1,17 @@
-import './SvgRPS.scss'
-import clsx from "clsx"
+import clsx from 'clsx'
 
 export default (props) => {
-  const {className} = props
+  const { className } = props
 
   return (
-    <div
-      className={clsx('svg-rps', className)}
-    >
-      <svg style={{display: 'none'}}>
+    <div className={clsx('svg-rps', className)}>
+      <svg style={{ display: 'none' }}>
         <symbol
-          xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-          viewBox="0 0 32 32" id="rock"
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          id="rock"
         >
           <path
             fill="currentColor"
@@ -19,22 +19,31 @@ export default (props) => {
           />
         </symbol>
       </svg>
-      <svg style={{display: 'none'}}>
+      <svg style={{ display: 'none' }}>
         <symbol
-          xmlns="http://www.w3.org/2000/svg" width="34" height="34"
-          viewBox="0 0 24 24" id="paper"
+          xmlns="http://www.w3.org/2000/svg"
+          width="34"
+          height="34"
+          viewBox="0 0 24 24"
+          id="paper"
         >
           <path
-            fill="none" stroke="currentColor" strokeLinecap="round"
-            strokeLinejoin="round" strokeWidth="2"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             d="M3 10a3 7 0 1 0 6 0a3 7 0 1 0-6 0m18 0c0-3.866-1.343-7-3-7M6 3h12m3 7v10l-3-1l-3 2l-3-3l-3 2V10m-3 0h.01"
           />
         </symbol>
       </svg>
-      <svg style={{display: 'none'}}>
+      <svg style={{ display: 'none' }}>
         <symbol
-          xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-          viewBox="0 0 32 32" id='scissors'
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          id="scissors"
         >
           <path
             fill="currentColor"
